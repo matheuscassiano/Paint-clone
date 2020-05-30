@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+}
+
+.pre, .pos {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pre button, .pre #paintSize, .pos #save button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100%;
+    margin: 0 5px 20px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+}
+
+.pre #paintSize {
+    width: 10px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+#screen {
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+}
+
+#save button{
+    background: darkturquoise;
+}
+
+.colors {
+    width: 700px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.colors button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+
+}
